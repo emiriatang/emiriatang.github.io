@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emiria的主页 ✨</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 背景装饰 -->
+    <div class="bg-decoration">
+        <div class="sakura-container" id="sakuraContainer"></div>
+    </div>
+
+    <!-- 主容器 -->
+    <main class="container">
+        <!-- 头像区域 -->
+        <div class="profile-section">
+            <div class="avatar-wrapper">
+                <div class="avatar-ring"></div>
+                <div class="avatar-ring-2"></div>
+                <img src="image/avatar.png" alt="头像" class="avatar" onerror="this.src='https://via.placeholder.com/200x200/ffb7c5/ffffff?text=Avatar'">
+            </div>
+            <h1 class="username">Emiria</h1>
+            <p class="tagline">二次元爱好者 | 动漫迷 | 游戏玩家</p>
+        </div>
+
+        <!-- 个人信息卡片 -->
+        <div class="card info-card">
+            <div class="card-header">
+                <span class="card-icon">🌸</span>
+                <h2>关于我</h2>
+            </div>
+            <div class="card-content">
+                <p>欢迎来到我的小天地！我是一名热爱二次元文化的创作者，喜欢在动漫和游戏的世界中探索美好的故事。</p>
+                <p>在这里，你可以找到我的社交媒体链接，关注我一起分享快乐！</p>
+            </div>
+        </div>
+
+        <!-- 兴趣爱好 -->
+        <div class="card hobby-card">
+            <div class="card-header">
+                <span class="card-icon">⭐</span>
+                <h2>兴趣爱好</h2>
+            </div>
+            <div class="card-content">
+                <div class="hobby-grid">
+                    <div class="hobby-item">
+                        <div class="hobby-icon">🎬</div>
+                        <h3>动漫</h3>
+                        <p>追番、补番、收藏手办</p>
+                    </div>
+                    <div class="hobby-item">
+                        <div class="hobby-icon">🎮</div>
+                        <h3>游戏</h3>
+                        <p>主机游戏、手游、独立游戏</p>
+                    </div>
+                    <div class="hobby-item">
+                        <div class="hobby-icon">🎨</div>
+                        <h3>创作</h3>
+                        <p>绘画、写作、视频剪辑</p>
+                    </div>
+                    <div class="hobby-item">
+                        <div class="hobby-icon">🎵</div>
+                        <h3>音乐</h3>
+                        <p>J-POP、动画主题曲、Vocaloid</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 社交链接 -->
+        <div class="card links-card">
+            <div class="card-header">
+                <span class="card-icon">💫</span>
+                <h2>关注我</h2>
+            </div>
+            <div class="card-content">
+                <div class="social-links">
+                    <a href="https://github.com/emiriatang" target="_blank" class="social-link github">
+                        <span class="link-icon">
+                            <svg viewBox="0 0 24 24" width="24" height="24">
+                                <path fill="currentColor" d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </span>
+                        <span class="link-text">GitHub</span>
+                        <span class="link-arrow">→</span>
+                    </a>
+                    
+                    <a href="https://space.bilibili.com/352610343" target="_blank" class="social-link bilibili">
+                        <span class="link-icon">📺</span>
+                        <span class="link-text">哔哩哔哩</span>
+                        <span class="link-arrow">→</span>
+                    </a>
+                    
+                    <a href="https://v.douyin.com/S_MRIW2y5Nc/ 3@4.com :1pm" target="_blank" class="social-link douyin">
+                        <span class="link-icon">🎵</span>
+                        <span class="link-text">抖音</span>
+                        <span class="link-arrow">→</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 页脚 -->
+        <footer class="footer">
+            <p>✨ Made with 💖 by Emiria ✨</p>
+            <p class="copyright">© 2024 All Rights Reserved</p>
+        </footer>
+    </main>
+
+    <script>
+        // 樱花飘落效果
+        function createSakura() {
+            const container = document.getElementById('sakuraContainer');
+            const sakura = document.createElement('div');
+            sakura.className = 'sakura';
+            
+            // 随机位置和大小
+            const left = Math.random() * 100;
+            const size = Math.random() * 15 + 10;
+            const duration = Math.random() * 5 + 5;
+            const delay = Math.random() * 5;
+            
+            sakura.style.left = left + '%';
+            sakura.style.width = size + 'px';
+            sakura.style.height = size + 'px';
+            sakura.style.animationDuration = duration + 's';
+            sakura.style.animationDelay = delay + 's';
+            
+            container.appendChild(sakura);
+            
+            // 动画结束后移除
+            setTimeout(() => {
+                sakura.remove();
+            }, (duration + delay) * 1000);
+        }
+
+        // 定期创建樱花
+        setInterval(createSakura, 300);
+
+        // 初始化一些樱花
+        for (let i = 0; i < 10; i++) {
+            setTimeout(createSakura, i * 200);
+        }
+    </script>
+</body>
+</html>
